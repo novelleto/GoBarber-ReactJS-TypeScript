@@ -42,28 +42,28 @@ export const AnimationContainer = styled.div`
     margin: 80px 0;
     width: 340px;
     text-align: center;
-  }
 
-  h1 {
-    margin-bottom: 24px;
-  }
-
-  > a {
-    color: #f4ede8;
-    display: block;
-    margin-top: 24px;
-    text-decoration: none;
-    transition: color 0.2s;
-
-    display: flex;
-    align-items: center;
-
-    &:hover {
-      color: ${shade(0.2, '#f4ede8')};
+    h1 {
+      margin-bottom: 24px;
     }
 
-    svg {
-      margin-right: 16px;
+    > a {
+      color: #f4ede8;
+      display: block;
+      margin-top: 24px;
+      text-decoration: none;
+      transition: color 0.2s;
+
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: ${shade(0.2, '#f4ede8')};
+      }
+
+      svg {
+        margin-right: 16px;
+      }
     }
   }
 `;
